@@ -3,6 +3,7 @@
 	<xs:element name="File">
 		<xs:complexType>
 				<xs:sequence>
+					<xs:element name="id" type="xs:int"/>
 					<xs:element name="document" type="xs:base64Binary"></xs:element>
 					<xs:element name="fileName" type="xs:string"></xs:element>
 				</xs:sequence>
